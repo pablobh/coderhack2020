@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+// General - Colores
+$azul:                                      #27AEFD;
+$verde:                                     #A5DF2A;
+$naranja:                                   #FFA600;
+
+// Bulma - Variables básicas
+$family-sans-serif:                           "Montserrat", sans-serif;
+$primary: $azul;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// Bulma - Variables de los componentes
+$body-background-color: #CBCBCB;
+$control-border-width: 2px;
+$input-border-color: transparent;

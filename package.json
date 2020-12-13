@@ -1,0 +1,61 @@
+{
+  "name": "coderhack-2020",
+  "version": "1.0.0",
+  "description": "Sitio web para Semillero Digital - Parte de coderhack 2020",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "clean": "gulp clean:dist",
+    "favicon:generate": "gulp generate-favicon",
+    "favicon:inject": "gulp inject-favicon-markups",
+    "build": "gulp build"
+  },
+  "author": "Pablo Bustamante <pablobh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pablobh/ch-js-final/-/issues",
+    "email": "pablo@4topixel.com"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "bulma": "^0.9.1",
+    "node-sass": "^4.14.1",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.5",
+    "gulp-postcss": "^9.0.0",
+    "gulp-real-favicon": "^0.3.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "gulp4-run-sequence": "^1.0.1",
+    "postcss": "^8.1.4"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "IE 11",
+    "iOS >= 9",
+    "Safari >= 9"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablobh/ch-js-final.git"
+  },
+  "private": true
+}
